@@ -1,7 +1,7 @@
 :root {
-  --bg: #0a0a0a;
+  --bg: #172C4B;
   --bg-2: #141414;
-  --fg: #193b7c;
+  --fg: #172C4B;
   --muted: #f5f1e8;
   --accent: #032551;
   --accent-2: #f5f1e8;
@@ -291,8 +291,8 @@ body {
 }
 
 .btn-ghost {
-  background: #fdad1c;
-  color: var(--accent);
+  background: #FBC91A;
+  color: white;
   border: 1px solid rgba(245, 241, 232, 0.25);
   border-radius: 12px;
 }
@@ -430,8 +430,8 @@ body {
   padding: 36px 32px;
   background: linear-gradient(
     180deg,
-    #FDAD1C,
-    #193B7C
+    #FBC91A,
+    #172C4B
   );
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -558,7 +558,7 @@ body {
 .progress-fill {
   height: 100%;
   width: 68%;
-  background: linear-gradient(90deg, #fdad1c, var(--accent-2));
+  background: linear-gradient(90deg, #FBC91A, var(--accent-2));
   position: relative;
   animation: growBar 2.2s 0.4s cubic-bezier(0.7, 0, 0.2, 1) forwards;
   transform-origin: left;
@@ -806,13 +806,13 @@ body {
 }
 
 .chip.gold {
-  border-color: #fdad1c;
+  border-color: #FBC91A;
   color: #0e2452;
 }
 
 .chip.navy {
-  border-color: #193b7c;
-  color: #193b7c;
+  border-color: #172C4B;
+  color: #172C4B;
 }
 
 /* Center the slider full-width on screen (instead of squeezed in hero grid) */
